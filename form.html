@@ -1,0 +1,23 @@
+<html>
+    <head>
+    <title>Send an invite to a new member</title>
+    <link rel="stylesheet" href="email.css">
+    </head>
+    <body>
+    <table><tr><td></td></tr>
+           <tr><td></td><td></td><td>
+    <form id ="form" class="form">
+    First Name:<input type="text" id="first" class="field"></input>
+    Last Name:<input type="text" id="last" class="field"></input>
+    E-mail:<input type="text" id="email" class="field"></input><br>
+    What is your F3 username:<input type="text" id="username" class="field"></input>
+    What brought you to F3?<input type="text" id="brought" class="field"></input><br>
+    Who led your first workout:<input type="text" id="led" class="field"></input>
+    Name of first workout location:<input type="text" id="wlocation" class="field"></input><br>
+    Workout region:<input type="dropdown" id="region" class="field"></input>
+    <input type ="submit" id="field" class="field" onclick="sendemail();"></input>
+    </form>
+    </td></tr></table>
+    <script src="email.js"></script>
+    </body>
+    </html>
